@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sprinter</title>
+
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link
+      href="plugins/revolution/css/settings.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- REVOLUTION SETTINGS STYLES -->
+    <link
+      href="plugins/revolution/css/layers.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="plugins/revolution/css/navigation.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="fonts/" />
+    <!-- REVOLUTION NAVIGATION STYLES -->
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- header -->
+    <div class="preloader"></div>
+    <header class="main-header">
+      <div class="header-upper">
+        <div class="outer-container">
+          <div class="clearfix">
+            <div class="pull-left logo-box">
+              <div class="logo">
+                <a href="#"><img src="images/logo.png" alt="" title="" /></a>
+              </div>
+            </div>
+            <div class="nav-outer clearfix">
+              <div class="mobile-nav-toggler">
+                <span class="icon flaticon-menu-4"></span>
+              </div>
+              <nav class="main-menu navbar-expand-md">
+                <div class="navbar-header">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div
+                  class="navbar-collapse collapse scroll-nav clearfix"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navigation clearfix">
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Event</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            <div class="social-outer-box">
+              <ul class="social-links">
+                <li>
+                  <a href="#"><span class="fa fa-twitter"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="fa fa-pinterest-p"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="fa fa-facebook-f"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="fa fa-instagram"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="fa fa-linkedin"></span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sticky-header">
+        <div class="auto-container clearfix">
+          <div class="logo pull-left">
+            <a href="#" class="img-responsive"
+              ><img src="images/logo-small.png" alt="" title=""
+            /></a>
+          </div>
+          <div class="right-col pull-right">
+            <nav class="main-menu navbar-expand-md">
+              <div
+                class="navbar-collapse collapse clearfix"
+                id="navbarSupportedContent1"
+              >
+                <ul class="navigation clearfix"></ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu">
+        <div class="menu-backdrop"></div>
+        <div class="close-btn">
+          <span class="icon flaticon-cancel-1"></span>
+        </div>
+        <nav class="menu-box">
+          <div class="nav-logo">
+            <a href="#"><img src="images/nav-logo.png" alt="" title="" /></a>
+          </div>
+          <ul class="navigation clearfix"></ul>
+        </nav>
+      </div>
+    </header>
+    <!-- header -->
+
+    <!-- slider -->
+    <section class="main-slider">
+      <div
+        class="rev_slider_wrapper fullwidthbanner-container"
+        id="rev_slider_one_wrapper"
+        data-source="gallery"
+      >
+        <div
+          class="rev_slider fullwidthabanner"
+          id="rev_slider_one"
+          data-version="5.4.1"
+        >
+          <ul>
+            <li
+              data-transition="slidingoverlayhorizontal"
+              data-description="Slide Description"
+              data-index="rs-1688"
+              data-slotamount="default"
+              data-thumb="images/main-slider/1.jpg"
+              data-title="Slide Title"
+            >
+              <img
+                alt=""
+                class="rev-slidebg"
+                data-bgfit="cover"
+                data-bgparallax="10"
+                data-bgposition="center center"
+                data-bgrepeat="no-repeat"
+                data-no-retina=""
+                src="images/main-slider/1.jpg"
+              />
+
+              <div
+                class="tp-caption"
+                data-paddingbottom="[0,0,0,0]"
+                data-paddingleft="[0,0,0,0]"
+                data-paddingright="[0,0,0,0]"
+                data-paddingtop="[0,0,0,0]"
+                data-responsive_offset="on"
+                data-type="text"
+                data-height="none"
+                data-width="['700','650','650','450']"
+                data-whitespace="normal"
+                data-hoffset="['15','15','15','15']"
+                data-voffset="['-70','-60','-60','-80']"
+                data-x="['left','left','left','left']"
+                data-y="['middle','middle','middle','middle']"
+                data-textalign="['top','top','top','top']"
+                data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+              >
+                <h2>Let's breathe in the excitement</h2>
+              </div>
+
+              <div
+                class="tp-caption tp-resizeme"
+                data-paddingbottom="[0,0,0,0]"
+                data-paddingleft="[0,0,0,0]"
+                data-paddingright="[0,0,0,0]"
+                data-paddingtop="[0,0,0,0]"
+                data-responsive_offset="on"
+                data-type="text"
+                data-height="none"
+                data-whitespace="normal"
+                data-width="['650','650','650','450']"
+                data-hoffset="['15','15','15','15']"
+                data-voffset="['125','110','110','90']"
+                data-x="['left','left','left','left']"
+                data-y="['middle','middle','middle','middle']"
+                data-textalign="['top','top','top','top']"
+                data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+              >
+                <div class="link-box" style="display: none">
+                  <a href="#" class="theme-btn btn-style-one">Register</a>
+                </div>
+              </div>
+            </li>
+
+            <li
+              data-transition="slidingoverlayhorizontal"
+              data-description="Slide Description"
+              data-index="rs-1689"
+              data-slotamount="default"
+              data-thumb="images/main-slider/2.jpg"
+              data-title="Slide Title"
+            >
+              <img
+                alt=""
+                class="rev-slidebg"
+                data-bgfit="cover"
+                data-bgparallax="10"
+                data-bgposition="center center"
+                data-bgrepeat="no-repeat"
+                data-no-retina=""
+                src="images/main-slider/2.jpg"
+              />
+
+              <div
+                class="tp-caption"
+                data-paddingbottom="[0,0,0,0]"
+                data-paddingleft="[0,0,0,0]"
+                data-paddingright="[0,0,0,0]"
+                data-paddingtop="[0,0,0,0]"
+                data-responsive_offset="on"
+                data-type="text"
+                data-height="none"
+                data-width="['700','650','650','450']"
+                data-whitespace="normal"
+                data-hoffset="['15','15','15','15']"
+                data-voffset="['-70','-60','-60','-80']"
+                data-x="['left','left','left','left']"
+                data-y="['middle','middle','middle','middle']"
+                data-textalign="['top','top','top','top']"
+                data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+              >
+                <h2>Every sprinting foot will educate the nation</h2>
+              </div>
+
+              <div
+                class="tp-caption tp-resizeme"
+                data-paddingbottom="[0,0,0,0]"
+                data-paddingleft="[0,0,0,0]"
+                data-paddingright="[0,0,0,0]"
+                data-paddingtop="[0,0,0,0]"
+                data-responsive_offset="on"
+                data-type="text"
+                data-height="none"
+                data-whitespace="normal"
+                data-width="['650','650','650','450']"
+                data-hoffset="['15','15','15','15']"
+                data-voffset="['125','110','110','90']"
+                data-x="['left','left','left','left']"
+                data-y="['middle','middle','middle','middle']"
+                data-textalign="['top','top','top','top']"
+                data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+              >
+                <div class="link-box" style="display: none">
+                  <a href="#" class="theme-btn btn-style-one">Register</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- slider -->
+    <section class="container">
+      <div class="auto-container mt-5">
+        <div class="row flex-row">
+          <div class="col-lg-5">
+            <div class="sec-title">
+              <div class="title-one">about Sprinters</div>
+            </div>
+            <h2 class="first d-lg-block d-md-none d-sm-none d-none"></h2>
+            <h2 class="sec-text-1">
+              We are passionate and always produce better results.
+            </h2>
+          </div>
+          <div class="col-lg-7">
+            <div class="bold-text">
+              We experience the need to feel normal again, to step out without
+              the stress of being exposed to the virus. The times of this
+              ongoing pandemic has made us realize the importance of small
+              things which matter a lot in our lives. One of the significant
+              missing vibes comes from the athletes and runners who are
+              desperately looking forward to getting back to the marathons.
+            </div>
+            <div class="bold-text">
+              We bring you the first one of a kind virtual marathon to feel good
+              just like the old days of running marathons without safety
+              concern.
+            </div>
+          </div>
+        </div>
+        <div class="row" id="sec-1"></div>
+        <div class="row mt-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated">
+            <img class="ser-img" src="images/resource/service-1.jpg" alt="" />
+            <div class="inner-box">
+              <h3 class="inner-box-con">
+                <a class="anchor-1" href="#">Download the App</a>
+              </h3>
+              <div class="text">Download from Playstores</div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated">
+            <div class="ser-img">
+              <img src="images/resource/service-2.jpg" alt="" />
+            </div>
+
+            <div class="inner-box">
+              <h3 class="inner-box-con">
+                <a class="anchor-1" href="#">Register</a>
+              </h3>
+              <div class="text">Register with Basic details</div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated">
+            <img class="ser-img" src="images/resource/service-3.jpg" alt="" />
+            <div class="inner-box">
+              <h3 class="inner-box-con">
+                <a class="anchor-1" href="#">Participate</a>
+              </h3>
+              <div class="text">Participate with full of energy</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid">
+      <div
+        class="pattern-layer paroller d-lg-block d-md-none d-sm-none d-none"
+        data-paroller-factor="0.10"
+        data-paroller-factor-lg="0.10"
+        data-paroller-factor-md="0.10"
+        data-paroller-factor-sm="0.10"
+        data-paroller-type="foreground"
+        data-paroller-direction="horizontal"
+        style="background-image: url(images/background/pattern-2.jpg)"
+      ></div>
+      <div class="outer-section">
+        <div class="clearfix" style="background: #ffffff99">
+          <div class="left-column">
+            <div class="inner-column clearfix">
+              <div class="sec-title">
+                <div class="inner-title">
+                  <div class="title">About Event</div>
+                  <h2>Run for Good Cause</h2>
+                </div>
+              </div>
+              <div class="text">
+                This marathon is not just about giving the runners a go at what
+                they love the most. The element of giving towards society is one
+                of the prime directives of Sprinters. With every participant
+                joining the marathon, the contribution towards educating the
+                underprivileged will experience a rise.
+              </div>
+              <br />
+              <div class="text">
+                We are trying to do our part and hope you join in to contribute
+                with the same.
+              </div>
+            </div>
+          </div>
+
+          <div class="right-column">
+            <div class="inner-column">
+              <div class="three-item-carousel owl-carousel owl-theme">
+                <div class="services-block-two">
+                  <div class="inner-box">
+                    <div class="image">
+                      <img src="images/resource/women.jpg" alt="" />
+                      <div class="overlay-box">
+                        <h3><a href="#">05 KM for Women</a></h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="services-block-two">
+                  <div class="inner-box">
+                    <div class="image">
+                      <img src="images/resource/men.jpg" alt="" />
+                      <div class="overlay-box">
+                        <h3><a href="#">05 KM for Men</a></h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="services-block-two">
+                  <div class="inner-box">
+                    <div class="image">
+                      <img src="images/resource/women.jpg" alt="" />
+                      <div class="overlay-box">
+                        <h3><a href="#">10 KM for Women</a></h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="services-block-two">
+                  <div class="inner-box">
+                    <div class="image">
+                      <img src="images/resource/men.jpg" alt="" />
+                      <div class="overlay-box">
+                        <h3><a href="#">10 KM for Men</a></h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="services-block-two">
+                  <div class="inner-box">
+                    <div class="image">
+                      <img src="images/resource/women.jpg" alt="" />
+                      <div class="overlay-box">
+                        <h3><a href="#">21 KM for Women</a></h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="services-block-two">
+                  <div class="inner-box">
+                    <div class="image">
+                      <img src="images/resource/men.jpg" alt="" />
+                      <div class="overlay-box">
+                        <h3><a href="#">21 KM for Men </a></h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="image-layer"
+                style="background-image: url(images/background/1.jpg)"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="lack container">
+        <div class="log row mb-4">
+          <div class="col-lg-5 col-md-12 col-sm-12">
+            <div class="title">Glimpse</div>
+            <h2 class="inner-diff">Captured in the frames</h2>
+          </div>
+          <div class="col-lg-7 col-md-12 col-sm-12">
+            <div class="logx-text">
+              Please have a look at some of the cherishing moments of joy from
+              our first marathon, which was a splendid run.
+            </div>
+          </div>
+        </div>
+        <div class="outer-container">
+          <div class="clearfix">
+            <div class="column col-lg-3 col-md-6 col-sm-12">
+              <!-- Project Block -->
+              <div class="project-block">
+                <div class="inner-box">
+                  <div class="image">
+                    <img src="images/gallery/1.jpg" alt="" />
+                    <!-- Overlay Box -->
+                    <div class="overlay-box">
+                      <div class="overlay-inner">
+                        <div class="overlay-content">
+                          <a
+                            class="plus"
+                            href="images/gallery/1.jpg"
+                            data-fancybox="gallery-1"
+                            data-caption=""
+                            ><span class="flaticon-full-screen"></span
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Block -->
+              <div class="project-block">
+                <div class="inner-box">
+                  <div class="image">
+                    <img src="images/gallery/2.jpg" alt="" />
+                    <!-- Overlay Box -->
+                    <div class="overlay-box">
+                      <div class="overlay-inner">
+                        <div class="overlay-content">
+                          <a
+                            class="plus"
+                            href="images/gallery/2.jpg"
+                            data-fancybox="gallery-1"
+                            data-caption=""
+                            ><span class="flaticon-full-screen"></span
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column col-lg-3 col-md-6 col-sm-12">
+              <!-- Project Block -->
+              <div class="project-block">
+                <div class="inner-box">
+                  <div class="image">
+                    <img src="images/gallery/3.jpg" alt="" />
+                    <!-- Overlay Box -->
+                    <div class="overlay-box">
+                      <div class="overlay-inner">
+                        <div class="overlay-content">
+                          <a
+                            class="plus"
+                            href="images/gallery/3.jpg"
+                            data-fancybox="gallery-1"
+                            data-caption=""
+                            ><span class="flaticon-full-screen"></span
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column col-lg-3 col-md-6 col-sm-12">
+              <!-- Project Block -->
+              <div class="project-block">
+                <div class="inner-box">
+                  <div class="image">
+                    <img src="images/gallery/4.jpg" alt="" />
+                    <!-- Overlay Box -->
+                    <div class="overlay-box">
+                      <div class="overlay-inner">
+                        <div class="overlay-content">
+                          <a
+                            class="plus"
+                            href="images/gallery/4.jpg"
+                            data-fancybox="gallery-1"
+                            data-caption=""
+                            ><span class="flaticon-full-screen"></span
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Block -->
+              <div class="project-block">
+                <div class="inner-box">
+                  <div class="image">
+                    <img src="images/gallery/5.jpg" alt="" />
+                    <!-- Overlay Box -->
+                    <div class="overlay-box">
+                      <div class="overlay-inner">
+                        <div class="overlay-content">
+                          <a
+                            class="plus"
+                            href="images/gallery/5.jpg"
+                            data-fancybox="gallery-1"
+                            data-caption=""
+                            ><span class="flaticon-full-screen"></span
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column col-lg-3 col-md-6 col-sm-12">
+              <!-- Project Block -->
+              <div class="project-block">
+                <div class="inner-box">
+                  <div class="image">
+                    <img src="images/gallery/6.jpg" alt="" />
+                    <!-- Overlay Box -->
+                    <div class="overlay-box">
+                      <div class="overlay-inner">
+                        <div class="overlay-content">
+                          <a
+                            class="plus"
+                            href="images/gallery/6.jpg"
+                            data-fancybox="gallery-1"
+                            data-caption=""
+                            ><span class="flaticon-full-screen"></span
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Block -->
+              <div class="project-block">
+                <div class="inner-box">
+                  <div class="image">
+                    <img src="images/gallery/7.jpg" alt="" />
+                    <!-- Overlay Box -->
+                    <div class="overlay-box">
+                      <div class="overlay-inner">
+                        <div class="overlay-content">
+                          <a
+                            class="plus"
+                            href="images/gallery/7.jpg"
+                            data-fancybox="gallery-1"
+                            data-caption=""
+                            ><span class="flaticon-full-screen"></span
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container form">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="inner-col col-lg-12 col-md-12 col-sm-12">
+              <div class="title">get in touch</div>
+              <h2 class="first d-lg-block d-md-none d-sm-none d-none"></h2>
+              <h2 class="sec-text-1">
+                Leave us <br />
+                Message
+              </h2>
+              <div class="text4">
+                We are always curious and ready to respond to your queries. Get
+                in touch with us to have your questions resolved.
+              </div>
+              <ul class="form-lost">
+                <li>
+                  <span>Address: </span> 508, Santorini Square, Nr. Abhishri
+                  Complex, Jodhpur Cross Road, Ahmedabad
+                </li>
+                <li>
+                  <span>Phone: </span> (+91) 9898989898 - (+91) 9898989898
+                </li>
+                <li><span>Email: </span> info@sprinters.club</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="pro-form">
+              <div class="form-group">
+                <input type="text" placeholder="Name" />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="E-mail" />
+              </div>
+              <div class="form-group">
+                <input type="subject" placeholder="Subject" />
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="Message"
+                  id=""
+                  cols="80"
+                  rows="10"
+                  placeholder="Message
+               "
+                ></textarea>
+              </div>
+              <div class="form-group text-center">
+                <button type="submit" class="theme-btn btn-style-one">
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="last-footer">
+      <div class="container xyze">
+        <div class="section-fit">
+          <div class="row onrmore">
+            <div class="one-column col-lg-6 col-md-12 col-sm-12">
+              <div class="row">
+                <div class="foot">
+                  <div class="footer-about">
+                    <ul class="social-link">
+                      <li><i class="fab fa-twitter"></i></li>
+                      <li><i class="fab fa-pinterest-p"></i></li>
+                      <li><i class="fab fa-facebook-f"></i></li>
+                      <li><i class="fab fa-instagram"></i></li>
+                      <li><i class="fab fa-linkedin-in"></i></li>
+                    </ul>
+                    <div class="text5">
+                      Promoting fitness and cherishing your winter. Join for a
+                      good cause and run with sprinters.
+                    </div>
+                    <div class="copyrights">
+                      <span style="color: #ffffff; font-weight: 600"
+                        >Sprinters</span
+                      >
+                      - Run for Good Cause
+                      <br />
+                      © All rights reserved.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="second-column col-lg-6 col-md-12 col-sm-12">
+              <div class="row">
+                <div class="ft-colm col-lg-6 col-md-6 col-sm-12">
+                  <div class="ft-link">
+                    <h2 class="ft-in">Sitemap</h2>
+                  </div>
+                  <ul class="ft-list1">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Event</li>
+                    <li>FAQ</li>
+                    <li>Contact us</li>
+                  </ul>
+                </div>
+                <div class="ftm-colm col-lg-6 col-md-6 col-sm-12">
+                  <div class="ft-link">
+                    <h2 class="ft-in">Contact us</h2>
+                  </div>
+                  <ul class="ft-list12">
+                    <li>
+                      Adress: <br />
+                      <span style="font-size: 18px; color: #ffffff"
+                        >508, Santorini Square, Nr. Abhishri Complex, Jodhpur
+                        Cross Road, Ahmedabad</span
+                      >
+                    </li>
+                    <li>
+                      Phone: <br /><span style="font-size: 18px; color: #ffffff"
+                        >+91 9898989898</span
+                      >
+                    </li>
+                    <li>
+                      Email: <br />
+                      <span style="font-size: 18px; color: #ffffff"
+                        >info@sprinters.club</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <button
+      class="btn btn-sm btn-primary position-fixed bottom-0 end-0 translate-middle d-none"
+      onclick="scrollToTop()"
+      id="back-to-up"
+      style="z-index: 999; background-color: black"
+    >
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="js/main-slider-script.js"></script>
+
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/backtobutton.js"></script>
+    <script src="js/paroller.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
